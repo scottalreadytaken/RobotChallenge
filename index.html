@@ -10,8 +10,10 @@
         margin-left:auto; 
         margin-right:auto;
         margin-top:auto;
-        width: 50%;
-        height: 50%;
+        height: 400px;
+        width: 400px;
+        table-layout: fixed;
+
       }
       td {
         border: 3px solid black;
@@ -24,19 +26,20 @@
     </style>
   </head>
   <body>
-
-      <h2>Commands</h2>
-      <h3> PLACE X,Y,DIRECTION </h3>
-      <p>X and Y are integers that indicate a location on the tabletop.</p>
-      <p>DIRECTION is a string indicating which direction the robot should face. It it one of the four cardinal directions: NORTH (up), EAST (right), SOUTH (down) or WEST (left).</p>
-      <h3>MOVE</h3>
-      <p>Instructs the robot to move 1 square in the direction it is facing.</p>
-      <h3>LEFT</h3>
-      <p>Instructs the robot to rotate 90° anticlockwise/counterclockwise.</p>
-      <h3>RIGHT</h3>
-      <p>Instructs the robot to rotate 90° clockwise.</p>
-      <h3>REPORT</h3>
-      <p>Outputs the robot's current location on the tabletop and the direction it is facing.</p>
+      <div>
+        <h2>Commands</h2>
+        <h3> PLACE X,Y,DIRECTION </h3>
+        <p>X and Y are integers that indicate a location on the tabletop.</p>
+        <p>DIRECTION is a string indicating which direction the robot should face. It it one of the four cardinal directions: NORTH (up), EAST (right), SOUTH (down) or WEST (left).</p>
+        <h3>MOVE</h3>
+        <p>Instructs the robot to move 1 square in the direction it is facing.</p>
+        <h3>LEFT</h3>
+        <p>Instructs the robot to rotate 90° anticlockwise/counterclockwise.</p>
+        <h3>RIGHT</h3>
+        <p>Instructs the robot to rotate 90° clockwise.</p>
+        <h3>REPORT</h3>
+        <p>Outputs the robot's current location on the tabletop and the direction it is facing.</p>
+      </div>
 
 
     </p>
