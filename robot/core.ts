@@ -1,11 +1,11 @@
 export const INVALID_DIMS_ERROR = "Board X and Y must be between 1 and 5.";
-export const NOT_PLACED_ERROR = "The robot must be placed to start."; 
-export const OFF_BOARD_MOVE_ERROR = "That move is invalid, it would move the robot outside the board";
-export const INVALID_COMMAND = "Invalid Command - Only PLACE, LEFT, RIGHT, MOVE, REPORT";
+export const NOT_PLACED_ERROR = "The robot must be placed before you can move it. Try 'PLACE 1,1,NORTH'."; 
+export const OFF_BOARD_MOVE_ERROR = "That move is invalid, it would move the robot outside the board.";
+export const INVALID_COMMAND = "Invalid Command - Only the PLACE, LEFT, RIGHT, MOVE, and REPORT commands are allowed. For the PLACE command, X&Y must be between 1-5 inclusive.";
 export const PLACE_COMMAND_ARGS_MISSING_ERROR = "The place command requires arguments.";
 export const PLACE_COMMAND_ARGS_WRONG_ERROR = "The arguments for place are invalid.";
 
-export const INVALID_MOVE = "Sorry, can't go that way.";
+export const INVALID_MOVE = "That move is invalid as it would move the robot outside the board.";
 export const SUCCESS_MSG = "Success.";
 
 export const ROBOT_NORTH = "NORTH"; 
