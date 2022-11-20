@@ -1,17 +1,18 @@
 
-#Robot Challenge
+# Robot Challenge
  
 
 This robot challenge is presented on an html page, index.html in the project directory. 
 
-##Quick Start
+## Quick Start
 
-The most reproducable way to get the solution to start is to use the dev containers feature in vscode.
+The most reproducible way to get the solution to start is to use the dev containers feature in vscode.
 The container supplied in the .devcontainer directory is the basic typescript image made by microsoft.
-Alternativly if npm is installed locally the following should still work.
+Alternatively if npm is installed locally the following should still work.
 
 
 Run the following from the project to level directory (where this README is located): 
+
 `npm install --include=dev` 
 
 `tsc`
