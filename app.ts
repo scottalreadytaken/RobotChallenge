@@ -129,7 +129,6 @@ submitButton?.addEventListener('click', function (event){
     // should prevent this from running when the test script is running 
     // but it's more fun to send additional commands during the test script
     // to see what happens. 
-    // The robot should be updated to prevent multiple commands been run at once
     if(input?.value && commandLog?.textContent){
         runAndLog(input.value);
     }

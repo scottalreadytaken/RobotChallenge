@@ -185,7 +185,7 @@ export class Robot{
         let trimmedCmd = cmdLine.trim().toLocaleUpperCase();
         if(trimmedCmd.match("^(MOVE|LEFT|RIGHT|REPORT)$")){ // is a valid command other than place
             //command is exactly one of the expected values
-            return new RobotCommand(cmdLine,null);
+            return new RobotCommand(trimmedCmd,null);
         }else if(trimmedCmd.match("^(PLACE [1-5],[1-5],(NORTH|EAST|SOUTH|WEST))$")){ // is a place command
             // command is a valid place command
             let split = trimmedCmd.split(" ");
