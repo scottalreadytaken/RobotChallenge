@@ -9,9 +9,13 @@ The instructions for moving the robot are at the top of the page.
 The game board is represented by an HTML table.
 
 The robot is shown as an arrow character based on the direction it's facing.
+
 ^ = North
+
 \> = East
+
 V = South
+
 < = West
 
 The output that tells the user whether or not their commands have succeeded is displayed in the log below the table. 
@@ -52,7 +56,7 @@ index.html - A basic html page that displays the game board.
 app.ts - Dynamic code that passes commands to the Robot and updates the display. 
 
 Tests:
-__tests__/test-core.ts - Contains basic test cases for the Robot class. There are no tests for the presentation layer code at this stage. The test cases use Jest. To run the tests, use `npm test`. 
+\__tests\__/test-core.ts - Contains basic test cases for the Robot class. There are no tests for the presentation layer code at this stage. The test cases use Jest. To run the tests, use `npm test`. 
 
 I've also checked in the built dist/bundle.js so there is something to run if the build fails in other environments for some reason. 
 
